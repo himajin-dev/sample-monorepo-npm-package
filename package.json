@@ -1,0 +1,13 @@
+{
+  "name": "@himajin-dev/sample-monorepo-npm-package-root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@himajin-dev/sample-monorepo-npm-package-foo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc",
+    "prepare": "yarn build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
