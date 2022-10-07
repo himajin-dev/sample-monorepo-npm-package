@@ -2,6 +2,8 @@
 
 This is a sample npm packages in monorepo hosted at GitHub Packages.
 
+Use Lerna to run commands and publish packages.
+
 ## Install
 
 Create `.npmrc`:
@@ -32,8 +34,7 @@ yarn install
 Transpile to JavaScript:
 
 ```
-yarn workspace @himajin-dev/sample-monorepo-npm-package-foo build
-yarn workspace @himajin-dev/sample-monorepo-npm-package-bar build
+yarn build
 ```
 
 ### Publish
@@ -41,8 +42,7 @@ yarn workspace @himajin-dev/sample-monorepo-npm-package-bar build
 Publish to GitHub Packages:
 
 ```
-yarn workspace @himajin-dev/sample-monorepo-npm-package-foo publish
-yarn workspace @himajin-dev/sample-monorepo-npm-package-bar publish
+yarn publish
 ```
 
 If you are not logged in, log in to GitHub Packages:
