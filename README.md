@@ -17,6 +17,7 @@ Install npm packages:
 ```
 npm install @himajin-dev/sample-monorepo-npm-package-foo
 npm install @himajin-dev/sample-monorepo-npm-package-bar
+npm install @himajin-dev/sample-monorepo-npm-package-baz
 ```
 
 ## Development
@@ -42,7 +43,7 @@ yarn build
 Publish to GitHub Packages:
 
 ```
-yarn publish
+yarn run publish
 ```
 
 If you are not logged in, log in to GitHub Packages:
