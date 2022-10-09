@@ -2,14 +2,12 @@
   "name": "@himajin-dev/sample-monorepo-npm-package-bar",
   "version": "1.0.1",
   "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "yarn clean && tsc && tsc-alias",
+    "postbuild": "cp package.json README.md LICENSE dist/",
     "prepare": "yarn build"
   },
   "publishConfig": {
