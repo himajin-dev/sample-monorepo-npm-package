@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "yarn clean && tsc",
+    "build": "yarn clean && tsc && tsc-alias",
     "prepare": "yarn build"
   },
   "publishConfig": {
