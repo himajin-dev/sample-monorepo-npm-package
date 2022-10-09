@@ -1,6 +1,6 @@
 {
   "name": "@himajin-dev/sample-monorepo-npm-package-foo",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "index.js",
   "types": "index.d.ts",
