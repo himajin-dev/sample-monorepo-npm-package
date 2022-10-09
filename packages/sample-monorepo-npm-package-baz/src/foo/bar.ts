@@ -1,3 +1,5 @@
+import { display } from "../lib/display";
+
 export const bar = (name: string) => {
-  console.log(`${name} from package-baz/foo/bar`)
+  display(`${name} from package-baz/foo/bar`)
 }

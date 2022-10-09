@@ -1,5 +1,5 @@
-export const baz = (name: string) => {
-  console.log(`${name} from package-baz`)
-}
+import { display } from './lib/display';
 
-export * from './foo'
+export const baz = (name: string) => {
+  display(`${name} from package-baz`)
+}
